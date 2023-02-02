@@ -1,0 +1,10 @@
+.works {
+    background-color: #EDF7FA;
+}
+.works-item {
+    display: flex;
+}
+.works-image img {
+    max-width: 250px;
+    max-height: 180px;
+}
