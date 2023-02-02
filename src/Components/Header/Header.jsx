@@ -29,23 +29,25 @@ const Header = () => {
               <span className={btn_line}></span>
             </button>
           </div>
-          <ul className={menu_list}>
-            <li className="menu-item">
-              <a href="/" className="menu-link">
-                Works
-              </a>
-            </li>
-            <li className="menu-item">
-              <a href="/" className="menu-link">
-                About
-              </a>
-            </li>
-            <li className="menu-item">
-              <a href="/" className="menu-link">
-                Contact
-              </a>
-            </li>
-          </ul>
+          <div className={menu_list}>
+            <ul>
+              <li className="menu-item">
+                <a href="/" className="menu-link">
+                  Works
+                </a>
+              </li>
+              <li className="menu-item">
+                <a href="/" className="menu-link">
+                  About
+                </a>
+              </li>
+              <li className="menu-item">
+                <a href="/" className="menu-link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>

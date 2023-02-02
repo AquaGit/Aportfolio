@@ -5,7 +5,13 @@
 }
 
 .menu {
+    display: flex;
     padding-top: 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 0 20px;
 }
 
 .menu-list {
@@ -19,6 +25,22 @@
 }
 
 @media(max-width:880px){
+    .menu {
+        /* display: block; */
+        padding-top: 30px;
+    }
+
+    .menu ul {
+        display: block;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 120px;
+    }
+
     .menu-item a {
         font-size: 28px;
         line-height: 80px;
@@ -88,10 +110,11 @@
 
     .menu-item {
         text-align: center;
-        align-items: center;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
+        margin-bottom: 100px;
+
+    }
+
+    .menu-item a {
+        line-height: 0px;
     }
 }
